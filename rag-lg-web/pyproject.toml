@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "lg-rag"
+version = "0.1.0"
+description = ""
+authors = ["전창국 Persona AI플랫폼팀 <ck.jeon@sk.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+beautifulsoup4 = "^4.12.3"
+langchain = "^0.3.11"
+langgraph = "^0.2.57"
+langchainhub = "^0.1.21"
+langchain-community = "^0.3.10"
+tavily-python = "^0.5.0"
+langchain-chroma = "^0.2.0"
+chromadb = ">=0.5.0,<0.6.0"  # 호환 가능한 버전 설정
+python-dotenv = "^1.0.1"
+black = "^24.10.0"
+langchain-openai = "^0.2.14"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
